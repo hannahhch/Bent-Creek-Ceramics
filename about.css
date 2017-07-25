@@ -153,15 +153,41 @@ h2 {
 
 
 
+
 #latin {
   margin-bottom: 3em;
 }
 
-.tiny_pots {
-  display: inline;
+
+.facilities_container {
+  height: 100%;
+  display: flex;
 }
 
 
+
+.pots_container img {
+  width: 90%;
+  height: auto;
+
+}
+
+
+.pots_container{
+  width: 60%;
+  padding-left: 15px;
+  display: inline-block;
+  font-size: 15px;
+}
+
+.pots_text {
+  padding-top: 5%;
+  line-height: 1.4em;
+}
+
+.monthly_plans{
+  margin-left: 15%;
+}
 /*---------------------------table-------------------*/
 
 
