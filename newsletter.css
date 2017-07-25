@@ -1,0 +1,134 @@
+/*------------------------------navigation bar---------------------------*/
+.nav_bar  {
+  display: flex;
+  background-color: white;
+  flex-basis: 100%;
+  height: 35px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  border-bottom: solid 1px transparent;
+  box-shadow:0px 1px 1px #968772;
+}
+
+.nav_button a {
+  border: solid 1px transparent;
+  background-color: transparent;
+  padding-bottom: 0;
+  color: #2B2F26;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+.nav_button a:hover {
+  color:#CD5D67;
+}
+
+.nav_button a:active {
+  color:#968772;
+}
+
+.nav_button {
+  align-self: center;
+  padding-left: 50px;
+  padding-top: 10px;
+
+
+}
+
+.nav_bar img {
+  max-width: 40px;
+  max-height: 40px;
+  align-self: center;
+  padding-left: 5px;
+  margin-right:370px;
+  padding-top: 5px;
+}
+
+
+/*----------------------------page content-------------------------------*/
+body {
+    background-image: url('background-2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height:auto;
+    margin: 0;
+}
+
+.sign_up  {
+  color: black;
+  border: solid transparent 1px;
+  background-color: white;
+  text-align: center;
+  width: 45%;
+  min-width: 45%;
+  display: block;
+  margin: auto;
+  margin-top: 15%;
+  border-radius: 3px;
+
+}
+
+h1 {
+  font-family: 'Meriweather' serif;
+  font-weight: lighter;
+  font-size: 30px;
+  color: #131511;
+  padding-top: 4%;
+}
+
+p {
+    font-family: 'Meriweather' serif;
+    font-weight: lighter;
+    color: #131511;
+    font-size: 20px;
+    padding-bottom: 1%;
+}
+
+.name, .email {
+  border-bottom: 1px solid #968772;
+  width: 85%;
+  display: block;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.name:focus, .email:focus {
+  border-bottom: 1px solid #967343;
+}
+
+#whole_name, #whole_email {
+  width: 89%;
+}
+
+label {
+  font-family: 'Roboto', sans-serif;
+  color: #968772;
+}
+
+#submit_button {
+  color: #F2F1E8;
+  background-color: #968772;
+  border: 1px solid #968772;
+  margin-bottom: 5%;
+  height: 40px;
+  width: 90px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+#submit_button:hover {
+  background-color: #967343;
+  color: #FFFFFF;
+}
+
+/*____________________________________form______________________*/
+
+input[type=text], input[type=email] {
+  -webkit-appearance: none;
+  border: 1px solid transparent;
+}
