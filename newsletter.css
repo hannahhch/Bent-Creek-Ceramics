@@ -103,6 +103,10 @@ p {
   width: 89%;
 }
 
+#whole_name:focus, #whole_email:focus {
+    outline: none;
+  }
+
 label {
   font-family: 'Roboto', sans-serif;
   color: #968772;
